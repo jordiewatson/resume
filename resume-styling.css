@@ -1,0 +1,82 @@
+body {
+	margin:0 auto;
+	font-size:16px;
+	color:#8c8c8c;
+	background: url(images/china.png);
+	font-family: 'Raleway', sans-serif;
+	font-weight:400;
+
+}
+
+header {
+	width:88%;
+	background:#cceeff;
+	margin:0 auto;
+	text-align:center;
+}
+
+footer {
+	width:88%;
+	font-family: 'Sansita', sans-serif;
+	font-size:30px;
+	padding:0.5em 0;
+	color:#4d4d4d;
+	margin:.5em auto;
+	background:#cceeff;
+	text-align:center;
+}
+
+h1 {
+	font-size:40px;
+}
+
+h1, h3 {
+	color:#4d4d4d;
+	text-decoration:none;
+	font-family: 'Sansita', sans-serif;
+}
+
+h2 {
+	color:white;
+	text-decoration:none;
+	font-family: 'Sansita', sans-serif;
+	padding:.3em;
+}
+
+h4 {
+	color:white;
+	font-weight:400;
+	font-family: 'Sansita', sans-serif;
+}
+
+.wrapper {
+	width:88%;
+	margin:0 auto;
+	background: #cceeff;
+	display:flex;
+	justify-content:space-between;
+	flex-direction:row-reverse;
+}
+
+.side-panel {
+	padding:0 2em 0;
+	box-sizing:border-box;
+	width:30%;
+}
+
+.content {
+	width:65%;
+	padding-right:1em;
+	box-sizing:border-box;
+}
+
+.align-center {
+  display:block;
+  margin:1em auto;
+}
+
+blockquote {
+	text-align:left;
+	padding-left:2.5em;
+	border-left: 5px solid white;
+}
